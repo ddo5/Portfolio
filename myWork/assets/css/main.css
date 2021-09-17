@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    color:rgba(255, 255, 255, 0.733);
+    background-color: #000;
+}
+
+
+.navbar{
+    padding:.8rem;
+}
+
+.navbar-nav li{
+    padding-right:20px;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.carousel-item
+{
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+
+figure{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+}
+
+.carousel-caption
+{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption h1
+{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px black;
+
+}
+
+.carousel-caption h3
+{
+    font-size: 150%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+
+}
+
+.introduction
+{
+    padding: .5rem;
+    border-radius: 0;
+    
+    
+}
+
+
+.padding
+{
+    padding-bottom: 1rem;
+}
+
+#announcements
+{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.announcements hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.staffSection img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+footer{
+    
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+
+/***********************************************************/
+
+/*--Media Queries--*/
+@media(max-width: 992px)
+{
+
+}
+@media(max-width: 768px)
+{
+    .carousel-caption{
+        top: 45%;
+    }
+    
+    .carousel-caption h1{
+        font-size: 350%;
+    }
+    
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+
+}
+@media(max-width: 576px)
+{
+
+
+}
+
+/*--Bootstrap Padding Fix--*/
+[class*="col-"]
+{
+    padding: 1rem;
+}
+
+.carousel-item img{
+    width: 100%;
+}
