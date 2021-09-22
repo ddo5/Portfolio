@@ -18,6 +18,7 @@ html,body{
 
 .navbar{
     padding:.8rem;
+
 }
 
 .navbar-nav li{
@@ -28,6 +29,7 @@ html,body{
     font-size: 1.1em !important;
 }
 
+
 .carousel-item
 {
     transition: -webkit-transform 0.5s ease;
@@ -37,48 +39,19 @@ html,body{
     backface-visibility: visible;
 }
 
-.carousel-inner img{
-    width: 100%;
-    height: 100%;
-}
-
-.carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel-caption h1{
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15px #000;
-}
-
-.carousel-caption h3{
-    font-size: 200%;
-    font-weight: 500;
-    text-shadow: 1px 1px 10px #000;
-    padding-bottom: 1rem;
-}
-
-
-figure{
-    position: relative;
-    width: 100%;
-    height: 60%;
-    margin: 0!important;
-}
 
 .carousel-caption
 {
     position: absolute;
     top:50%;
     transform: translateY(-50%);
+    height: fit-content;
+    
 }
 
 .carousel-caption h1
 {
-    font-size: 500%;
+    font-size: 800%;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px black;
 
@@ -86,18 +59,18 @@ figure{
 
 .carousel-caption h3
 {
-    font-size: 150%;
+    font-size: 350%;
     font-weight: 500;
     text-shadow: 1px 1px 10px black;
 
 }
 
-.introduction
+.carousel-caption p
 {
-    padding: .5rem;
-    border-radius: 0;
-    
-    
+    font-size: 150%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+
 }
 
 
@@ -106,26 +79,68 @@ figure{
     padding-bottom: 1rem;
 }
 
-#announcements
+#aboutME
 {
     width: 75%;
     margin: 0 auto;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
-.announcements hr{
+#aboutME hr{
     border-top: 2px solid #b4b4b4;
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
 
-.staffSection img
+.profiletext{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.card-img-top
 {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
+
+
+#projects hr{
+    border-top: 2px solid #b4b4b4;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-python 
+{
+    color: rgb(22, 92, 223);
+    font-size: 7em;
+    margin: 1rem;
+}
+
+.fa-css3-alt 
+{
+color: rgb(0, 119, 255);
+font-size: 7em;
+margin: 1rem;
+}
+
+.fa-java 
+{
+color: rgb(255, 0, 0);
+font-size: 7em;
+margin: 1rem;
+}
+
+.fa-linux 
+{
+color: rgb(253, 253, 253);
+font-size: 7em;
+margin: 1rem;
+}
+
 
 
 footer{
