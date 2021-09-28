@@ -12,7 +12,9 @@ html,body{
     width: 100%;
     font-family: 'Nunito', sans-serif;
     color:rgba(255, 255, 255, 0.733);
-    background-color: #000;
+    background: linear-gradient(-45deg, #000000, #081447, #000000, #1a1919);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
 }
 
 
@@ -81,21 +83,42 @@ html,body{
 
 #aboutME
 {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 4rem;
+    background: linear-gradient(-45deg, #000000, #181717, #181717, #000000);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient 
+{
+    0% 
+    {
+      background-position: 0% 50%;
+    }
+    50% 
+    {
+      background-position: 100% 50%;
+    }
+    100% 
+    {
+      background-position: 0% 50%;
+    }
 }
 
 #aboutME hr{
     border-top: 2px solid #b4b4b4;
-    width: 95%;
+    width: 90%;
     margin-top: .3rem;
     margin-bottom: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .profiletext{
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .card-img-top
@@ -106,16 +129,27 @@ html,body{
 }
 
 
+#skills hr{
+    border-top: 2px solid #b4b4b4;
+    width: 90%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
 #projects hr{
     border-top: 2px solid #b4b4b4;
     width: 90%;
     margin-top: .3rem;
     margin-bottom: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .fa-python 
 {
-    color: rgb(22, 92, 223);
+    color: rgb(223, 220, 22);
     font-size: 7em;
     margin: 1rem;
 }
@@ -136,9 +170,30 @@ margin: 1rem;
 
 .fa-linux 
 {
-color: rgb(253, 253, 253);
+color: rgb(138, 64, 235);
 font-size: 7em;
 margin: 1rem;
+}
+
+.fa-github
+{
+    color: rgb(253, 253, 253);
+    font-size: 7em;
+    margin: 1rem;
+}
+
+.fa-html5
+{
+    color: rgb(199, 36, 36);
+    font-size: 7em;
+    margin: 1rem;
+}
+
+.fa-js-square
+{
+    color: rgb(57, 255, 106);
+    font-size: 7em;
+    margin: 1rem;
 }
 
 
