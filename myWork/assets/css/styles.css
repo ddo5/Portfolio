@@ -12,9 +12,24 @@ html,body{
     width: 100%;
     font-family: 'Nunito', sans-serif;
     color:rgba(255, 255, 255, 0.733);
-    background: linear-gradient(-45deg, #000000, #081447, #000000, #1a1919);
+    background: linear-gradient(-45deg, #000000, #081447, #000000, #000000);
     background-size: 400% 400%;
-    animation: gradient 30s ease infinite;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient 
+{
+    0% 
+    {
+      background-position: 0% 50%;
+    }
+    50% 
+    {
+      background-position: 100% 50%;
+    }
+    100% 
+    {
+      background-position: 0% 50%;
+    }
 }
 
 
@@ -86,26 +101,11 @@ html,body{
     width: 100%;
     margin: 0 auto;
     padding-top: 4rem;
-    background: linear-gradient(-45deg, #000000, #181717, #181717, #000000);
-    background-size: 400% 400%;
-    animation: gradient 30s ease infinite;
+    background-color: #000000;
+
 }
 
-@keyframes gradient 
-{
-    0% 
-    {
-      background-position: 0% 50%;
-    }
-    50% 
-    {
-      background-position: 100% 50%;
-    }
-    100% 
-    {
-      background-position: 0% 50%;
-    }
-}
+
 
 #aboutME hr{
     border-top: 2px solid #b4b4b4;
@@ -139,12 +139,17 @@ html,body{
 }
 
 #projects hr{
-    border-top: 2px solid #b4b4b4;
+    border-top: 2px solid #b4b4b488;
     width: 90%;
     margin-top: .3rem;
     margin-bottom: 1rem;
     margin-right: 5rem;
     margin-left: 5rem;
+}
+
+#projects{
+    background-color: #000000;
+    color:rgba(255, 255, 255, 0.863);
 }
 
 .fa-python 
